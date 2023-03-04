@@ -1,0 +1,28 @@
+.titulo{
+    color:rgba(255, 117, 204, 0.679);
+    text-align:center;
+}
+.marco{
+    width:100%;
+    height:200px;
+    border:1px solid rgba(255, 117, 204, 0.679);
+}
+.centrar{
+    text-align: center;
+}
+.boton{
+    /*Escogemos color de fondo*/
+    background-color: white;
+    /*Le damos un borde con color*/
+    border: 3px solid rgb(69, 123, 157);
+    /*Eliminamos la "decoración" del texto (subrayado)*/
+    text-decoration: none;
+    /*Al ser para un div se comporta como bloque con el inline block
+    respeta el padding que  queremos darle despues*/
+    display: inline-block;
+    padding: 10px;
+}
+.boton:hover{
+    background-color: rgb(69, 123, 157);
+    color: white;
+}

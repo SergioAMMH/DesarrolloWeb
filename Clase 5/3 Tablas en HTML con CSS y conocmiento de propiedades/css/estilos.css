@@ -1,0 +1,42 @@
+/* Podemos definir estilos juntos que queremos que se mantengan en varias etiquetas*/
+table,th,td{
+    /*Creamos la linea que separa las celdas*/
+    border:1px solid black;
+    /*Colapsamos los espacios de las celdas de la tabla*/
+    /*border-collapse: collapse;*/
+    /*Podemos utilizar padding también en las tabls de html*/
+    padding: 2px;
+    /*Espaciado de borde*/
+    border-spacing: 5px;
+
+
+}
+table{
+    width: 100%;
+}
+/*Mas tarde podemos especificar un estilo en concreto para una etiqueta si lo deseamos*/
+caption{
+    color: blue;
+    font-family: 'Trocchi',serif;
+    font-size: 25px;
+    line-height: 70px;
+}
+td{
+    text-align: center;
+    
+}
+
+th{
+    text-align: left;
+    color: burlywood;
+    background-color:blue;
+}
+/*Modificar renglones pares*/
+/*El primer renglon es el th*/
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+/*renglones impares*/
+tr:nth-child(odd){
+    background-color: #a8a8a8;
+}

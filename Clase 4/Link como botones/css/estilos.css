@@ -1,0 +1,21 @@
+h1{
+    color:grey;
+}
+/* Simularemos un boton en Nuestra etiqueta a para los links*/
+a:link, a:visited{
+    /* Color del fondo del boton*/
+    background-color: darkmagenta;
+    /* Color del texto*/
+    color:white;
+    /* Margenes superior e inferior de 15px, izquierdo y derecho de 25px*/
+    padding:15px 25px;
+    /* Alineamos el texto en el centro de neustra "Box" */
+    text-align:center;
+    /*Sin decoración */
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    background-color: #f72825;
+    
+}

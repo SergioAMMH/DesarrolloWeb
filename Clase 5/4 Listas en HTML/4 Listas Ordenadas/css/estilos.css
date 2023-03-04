@@ -1,0 +1,25 @@
+
+ol{
+    /*Solicitamos que no aplique estilo proque vamos a personalziar*/
+    list-style: none;
+    /*Reiniciamos en cero el contador para cada lista*/
+    counter-reset: contador;
+}
+/*Aumentamos nuestr variable contador por cada elemento*/
+ol li{
+    counter-increment: contador;
+}
+
+/*Estilos aplicados a los elementos de las listas ordenadas*/
+/*:: Es un selector y before nos dice que agregar antes de el elemento
+li de las listas ordenadas*/
+ol li::before{
+    /*El contador es para enumerar*/
+    content:"Elemento " counter(contador) ") ";
+    color: orange;
+}
+/*De igual manera podemos agregar contenido despues de una etiqueta en particular
+con el mismo metodo pero con after*/
+ol li::after{
+    content: '.';
+}

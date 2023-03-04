@@ -1,0 +1,33 @@
+/*Estilo general para TODOS los elementos de la pagina*/
+*{
+    margin:0;
+    padding: 0;
+}
+/*Identificador (id) CSS*/
+#titulo_principal{
+    color:pink;
+    text-align: center;
+    margin: 15 px;
+}
+
+h2{
+    color:mediumvioletred;
+
+}
+p{
+    color:darkblue;
+}
+/*Ahora definimos estos estulos a nuestra clase llamada tarjeta*/
+/*Clase CSS*/
+.tarjeta{
+    border:10px solid #560bad;
+    background-color: plum;
+    text-align: center;
+    margin:15px 100px;
+    padding: 15px;
+}
+/*Al crear una clases se recomienda no utilizar caractere especiales (acentos incluidos)
+y si se planea utilizar varias palabras es recomendable usar guion medio o bajo*/
+.titulo{
+    color:rgb(156, 253, 156);
+}

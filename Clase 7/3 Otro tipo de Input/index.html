@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios fieldset</title>
+</head>
+<body>
+    <h1>Ejemplo limpio de formularios y otros tipos de input</h1>
+    <!--¿Donde lo va a procesar? Para eso sirve Action-->
+    <!--otros atributos de form-->
+    <!--Method='Post'/'Get'-->
+    <!--target='_blank'-->
+    <!--autocomplete='off'-->
+    <form action="mi servidor" autocomplete="off"">
+        <fieldset>
+            <!--Valor no editable-->
+            <legend>Datos Personas</legend> <br/>
+            <label for="idPersona">id Persona:</label>
+            <input type="text" id="idPersona" name="Persona"
+                readonly="true" value="100" disabled="true"/> <br/>
+
+            <!--Variables ocultas al usuario-->
+            <input type="hidden" id="sistema" name="sistema" value="SAP"/>
+
+            <label for="nombre">Nombre: </label><br/>
+            <input type="text" id="nombre" name="nombre" 
+                placeholder="Escribe tu nombre" required="true"/><br/>
+
+            <label for="apellido">Apellido: </label> <br/>
+            <input type="text" id="apellido" name="apellido" 
+                placeholder="Escribe tu Apellido" required="true"/> <br/>
+            <!--Valores númericos enteros-->
+            <label for="edad">Edad: </label> <br/>
+            <input type="number" id="edad" name="edad"><br/>
+            <!--Valores numericos flotante-->
+            <label for="estatura">Estatura:</label> <br/>
+            <input type="number" id="Estatura" name="Estatura" step="any"><br/>
+
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email"/> <br/>
+
+            <!--Podemos perfectamente más de un radio si no comparten nombre. 
+                Para tener selección multiple debemos tener el mismo "name"-->
+            <label>Género:</label> <br/>
+            <input type="radio" id="femenino" name="genero" value="femenino"/>
+            <label for="femenino">Femenino</label> 
+            <input type="radio" id="masculino" name="genero" value="masculino"/>
+            <label for="masculino">Masculino</label> 
+            <br/>
+            <!--Ejemplo de check button-->
+            <!--Para checkbox también deben tener el mismo name para enviarse -->
+            <label>Musica favorita:</label><br/>
+            <input type="checkbox" id="claisca" name="musica" value="clasica">
+            <label for="clasica">Claisca</label> <br/>
+            <input type="checkbox" id="jazz" name="musica" value="jazz">
+            <label for="jazz">Jazz</label> <br/>
+
+            <!--Select tipo-->
+            <!--En caso de que queramos utilizar algo distinto a nuestro input.
+                Select puede devolvernos información, pero es un valor arbitrario que
+                nosotros decidimos, no la cadena de texto-->
+            <label for="autos">Marca de Auto favorita:</label> <br/>
+            <select id="autos" name="autos" multiple="true">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="Audi" selected="true">Audi</option>
+            </select>
+            <!--De manera automatica se carga la primer opcion "Volvo". PERO
+            para escoger otro valor, ponemos selected=true-->
+            <br/>
+            
+
+            <!--Text area para comentarios-->
+            <label for="comentario">Comentarios</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30">Este es mi comentario</textarea>
+            <br/>
+            <input type="submit" value="Enviar" />
+            <!--Y si queremos quitar los valores?-->
+            <input type="reset" value="Eliminar información"/>
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

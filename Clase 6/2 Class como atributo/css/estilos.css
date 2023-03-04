@@ -1,0 +1,16 @@
+h1{
+    color:pink;
+    text-align: center;
+}
+h2{
+    color:mediumvioletred;
+
+}
+p{
+    color:darkblue;
+}
+div{
+    border:10px #560bad;
+    background-color: plum;
+    text-align: center;
+}

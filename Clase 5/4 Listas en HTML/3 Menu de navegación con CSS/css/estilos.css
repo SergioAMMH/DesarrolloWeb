@@ -1,0 +1,34 @@
+/*Estilos para h1*/
+h1{
+    color:darkblue
+}
+/*Estilos para lista no ordenada*/
+ul{
+    list-style-type: none;
+    background-color: magenta;
+    /*Usamos overflow hidden para dentoar que es un elemento independiente de la pagina*/
+    overflow: hidden;
+    margin:0;
+    padding:0;
+
+}
+/*Estilos para elementos de lsita*/
+li{
+    /*Se acomodan de forma flotante a la izquierda uno de otro*/
+    float: left;
+}
+/*Estilos para elementos de lsita con un enlace a*/
+li a{
+    /*Hacemos que se desplieguen como un unico bloque*/
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+/* Propiedad de cambio de color cuando ponemos el cursor encima*/
+li a:hover{
+    background-color: darkblue;
+}
