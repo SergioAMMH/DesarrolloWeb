@@ -1,0 +1,24 @@
+h1{
+    color:grey;
+}
+/*Enlace sin visitar*/
+a:link{
+    color:red;
+
+    text-decoration: none;
+}
+/*Enlace visitado¨*/
+a:visited{
+    color: #219c21;
+    text-decoration: none;
+}
+/*cursos encima de link*/
+a:hover{
+    color:chocolate;
+    text-decoration: underline;
+}
+/*Mantener presionado*/
+a:active{
+    color:darkmagenta;
+    text-decoration: underline;
+}
