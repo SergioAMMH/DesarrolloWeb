@@ -1,0 +1,7 @@
+
+/* con la coma podemos darle estilo a todos los elementos*/
+h1, h2, p{
+    color:crimson;
+    text-align: center;
+
+}

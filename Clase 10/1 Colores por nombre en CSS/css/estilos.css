@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+/*
+h2{
+    color:white
+}
+*/
+
+.rojo, .rosa, .violeta{
+    color:white;
+}
+
+.rojo{
+    background-color: firebrick;
+}
+.rosa{
+    background-color: hotpink;
+}
+
+.amarillo{
+    background-color: gold;
+}
+
+.violeta{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: lime;
+}
+.azul{
+    background-color: turquoise;
+}

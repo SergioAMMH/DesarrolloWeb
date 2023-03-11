@@ -7,7 +7,7 @@ table,th,td{
     /*Podemos utilizar padding también en las tabls de html*/
     padding: 2px;
     /*Espaciado de borde*/
-    border-spacing: 5px;
+    border-spacing:5px;
     /* Elementos colspan y rowspan*/
 
 }
@@ -15,9 +15,11 @@ table{
     width: 100%;
 }
 /*Mas tarde podemos especificar un estilo en concreto para una etiqueta si lo deseamos*/
+
 td{
     text-align: center;
 }
+
 th{
     text-align: left;
 }

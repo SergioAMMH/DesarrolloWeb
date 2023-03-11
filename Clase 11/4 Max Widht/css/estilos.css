@@ -1,0 +1,23 @@
+
+/*Div pone margen y padding automatico, eliminamos general de todos los elementos para evitar esto*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:#e63946;
+}
+/*El outline existe entre el padding y el margin*/
+div{
+    padding:10px;
+    border:1px solid #457b9d;
+    margin:0px;
+    background-color: #f1faee;
+    /*Longitud maxima de 300 pixeles*/
+    max-width: 100%;
+    max-height: 100px;
+
+    box-sizing: border-box;
+}

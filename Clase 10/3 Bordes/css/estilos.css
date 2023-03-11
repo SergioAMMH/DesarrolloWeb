@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+}
+/*Podemos definir nuestro Borde unicamente con Border style si no requerimos otras propiedades*/
+.punteado{
+    border-style: dotted;
+}
+.discontinuo{
+    border-style: dash;
+}
+
+.solido{
+    border-style: solid;
+}
+
+.doble{
+    border-style: double;
+    /*
+    border-width: 10px 5px;
+    */
+}
+.surco{
+    border: 10px groove;
+    /*
+    border-width: 10px
+    border-style: groove;
+    */
+}
+.cresta{
+    border: 10px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+.sin_borde{
+    border:none;
+}
+.borde_oculto{
+    border: hidden;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+}
+
+/*Ancho de bordes diferentes estilos*/
+/* Podemos usar pixeles o predeterminado*/
+.punteado2{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+}
+
+.discontinuo2{
+    border-style: dash;
+    border-width: thick;
+    /*thin medium thick*/
+}
+/*Color como propiedad*/
+.mixto2{
+    border-style: dotted solid dashed double;
+    border-color: blueviolet firebrick turquoise midnightblue;
+    border-width: 5px 10px 15px 20px;
+}
+
+.recuadro2{
+    border: 10px inset;
+    border-color: rgba(137, 43, 226, 0.429);
+}
+
+/*Redondeo de bordes*/
+.solido2{
+    border-style: solid;
+    border:10px red;
+    border-radius: 15px;
+}
+
+.redondeado{
+    border:5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+
+
+/*Otros bordes extra en la referencia de CSS
+https://developer.mozilla.org/es/docs/Web/CSS/border-style
+*/

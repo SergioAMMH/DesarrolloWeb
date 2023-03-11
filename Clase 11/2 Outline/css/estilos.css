@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color:#e63946;
+}
+/*El outline existe entre el padding y el margin*/
+div{
+    padding:10px;
+    border:15px solid #457b9d;
+    margin:20px;
+    background-color: #f1faee;
+    width: 300px;
+    outline: 10px solid #a8dadc;
+    /*Podemos aplicar los mismos elementos de border al outline*/
+}
+/*Outline offset*/
+div{
+    padding:10px;
+    /*  Personalizar padding*/
+    /*padding:10px 5px; */
+    border:15px solid #457b9d;
+    margin:20px;
+    background-color: #f1faee;
+    width: 300px;
+    outline: 10px solid #a8dadc;
+    outline-offset: 10px;
+    /*Esto no sirve */
+    /*
+    outline-offset: 10px 5px 3px 2px;
+    */
+}

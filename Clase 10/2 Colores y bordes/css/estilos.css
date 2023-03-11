@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+/*
+h2{
+    color:white
+}
+*/
+
+
+
+.rojo{
+    border: 10px solid  rgb(178, 34, 34);
+    
+}
+.rosa{
+    border: 10px dashed rgb(255, 105, 180);
+}
+
+.amarillo{
+    border: 10px double gold;
+}
+
+.violeta{
+    border: 10px dotted blueviolet;
+}
+
+.verde{
+    border: 10px inset lime;
+}
+.azul{
+    border: 10px groove turquoise;
+}
+
+/*Otros bordes extra en la referencia de CSS
+https://developer.mozilla.org/es/docs/Web/CSS/border-style
+*/

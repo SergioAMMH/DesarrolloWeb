@@ -1,0 +1,4 @@
+/*Al definir una etiqueta de html seguido del formato de clase damos estructura a uan subclase*/
+p.centrar{
+    text-align: center;
+}

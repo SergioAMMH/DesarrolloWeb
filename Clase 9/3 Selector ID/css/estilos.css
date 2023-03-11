@@ -1,0 +1,26 @@
+/*Id selector*/
+
+#titulo{
+    color:crimson;
+    text-align: center;
+}
+
+/*Clase de CSS. Solamente puede empezar con letrs o nuemros el nombre de la clase
+y elemetos id en CSS*/
+
+/* Podemos definir multiples clases en un solo elemento de Html*/
+.centrar{
+    text-align: center;
+
+}
+
+.texto_grande{
+    font-size:50px;
+}
+
+/*Selector Universal*/
+/*Se recomienda definirlo al principio del archivos pero no es necesario */
+*{
+    background-color: ghostwhite;
+    color:aqua;
+}
